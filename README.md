@@ -14,10 +14,8 @@ GreenAI is a deep learning-based waste classification system developed to enhanc
 - [Results](#results)
 - [Future Implications](#future-implications)
 - [Conclusion](#conclusion)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
+
 
 ## Introduction
 GreenAI leverages transfer learning and deep learning techniques to classify waste images accurately. It prioritizes models like CNN, ResNet, and MobileNetV2, which have demonstrated high classification accuracy (>90%) and suitability for real-time applications in resource-constrained environments. This project does not currently integrate IoT or edge computing devices but can potentially extend to such use cases.
@@ -56,26 +54,4 @@ Future work could include:
 ## Conclusion
 GreenAI demonstrates that deep learning, particularly CNN-based models and transfer learning approaches, can significantly enhance the accuracy of waste classification. This project has the potential to contribute to sustainable waste management practices by automating the sorting process.
 
-## Installation
-To set up the project locally:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/greenai.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-To train and evaluate the model:
-1. Run the data preprocessing script.
-2. Train the model by running:
-   ```bash
-   python train.py
-   ```
-3. Evaluate the model on test data:
-   ```bash
-   python evaluate.py
-   ```
 
